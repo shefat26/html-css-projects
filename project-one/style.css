@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto&display=swap");
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+
+   
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.childtwo{
+
+    margin: 10px 20px;
+    padding: 30px 20px;
+
+}
+
+a, span{
+
+    /* border: 1px solid black; */
+    margin: 10px 20px;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+
+}
+
+/* span{
+
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+} */
+
+
+
+
+
+
+
+.second{
+
+   
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.boxone{
+
+    margin: 10px 20px;
+    padding: 40px;
+    
+}
+
+h2{
+
+    font-size: 30px;
+}
+
+.second button{
+
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(231, 11, 103);
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+
+.boxtwo{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 40px;
+    border-radius: 3000px;
+
+
+}
+
+
+.third{
+
+   
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fourth{
+
+   
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+   
+}
+
+h3{
+
+    margin: 20px;
+   
+    
+}
+
+
+
+.gearimg{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: grid;
+    width: 980px;     
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+
+    /* have question  */
+
+}
+
+.footer{
+
+   
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footertwo{
+
+    margin: 10px 20px;
+    padding: 20px;
+
+}
+footer h3{
+
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+footer button {
+
+    padding: 10px;
+    background-color:  rgb(231, 11, 103);
+}
