@@ -165,6 +165,7 @@ h3{
 
 
 
+
 .footer{
 
     border: 1px solid black;
@@ -196,4 +197,78 @@ footer button {
     padding: 10px;
     background-color:  rgb(231, 11, 103);
     width: 130px;
+}
+
+
+
+@media(max-width: 1200px){
+
+
+    .gearimg{
+
+
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+       /* place-items: center; */
+    
+       /* justify-content: center; */
+        /* have question  */
+    
+    }
+    
+
+    
+    
+
+}
+@media(max-width: 700px){
+
+
+    .gearimg{
+
+
+        grid-template-columns: 1fr;
+        gap: 50px;
+       /* place-items: center; */
+    
+       /* justify-content: center; */
+        /* have question  */
+    
+    }
+    
+
+    .second{
+
+   
+        flex-direction: column;
+    }
+    
+    
+    .third{
+
+   
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .container{
+
+        flex-direction: column;
+    }
+
+    .childtwo{
+
+
+        display: grid;
+        /* flex-direction: column; */
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+
+    .childtwo a{
+
+        margin: 5px;
+        padding: 5px;
+        
+    }
 }
