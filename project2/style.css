@@ -15,6 +15,7 @@
     padding: 10px 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .navone{
@@ -118,6 +119,7 @@
     padding: 10px 20px;
     font-size: 20px;
     background-color:rgb(253, 220, 226);
+    border-radius: 1rem;
 
 }
 
@@ -141,6 +143,7 @@
     padding: 10px 20px;
     font-size: 20px;
     background-color: lightyellow;
+    border-radius: 1rem;
 }
 
 .goal img{
@@ -160,7 +163,8 @@
     margin: 10px 20px;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .imagecode{
@@ -248,6 +252,7 @@
     padding: 10px 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .cop{
@@ -264,7 +269,19 @@
     padding: 10px 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
+}
+
+.footer .image{
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.mobileapp{
+
+    width: 450px;
 }
 
 .bottomtwo{
@@ -293,3 +310,282 @@
     background-color: orangered;
 
 }
+
+
+
+
+
+@media(max-width: 1200px){
+
+ .top{
+
+    flex-direction: column;
+    background-color: skyblue;
+ }
+
+ .navone{
+
+    background-color: rgb(160, 195, 211);
+ }
+
+ 
+ .navtwo{
+
+    background-color: rgb(97, 124, 148);
+ }
+
+
+
+ .mymission{
+
+    background-color: rgb(7, 97, 133);
+    color: antiquewhite;
+    
+}
+
+ .second{
+
+    
+    flex-direction: column;
+    background-color: skyblue;
+ }
+
+
+ .mission{
+
+    /* border: 10px; */
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(182, 115, 115);
+    justify-content: center;
+ }
+
+
+ .vission{
+
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: chartreuse;
+    
+ }
+.goal{
+
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(204, 248, 248);
+    
+ }
+
+
+
+
+
+
+
+ .third{
+
+    flex-direction: column;
+    background-color: skyblue;
+ }
+
+ .dev{ 
+
+    background-color: rgb(165, 10, 165);
+
+}
+
+
+ .fourth{
+
+    flex-direction: column-reverse;
+    background-color: skyblue;
+
+}
+
+
+.know{
+
+    background-color: aquamarine;
+}
+
+
+.fifth{
+
+    background-color: skyblue;
+}
+
+
+
+
+.footer{
+
+    flex-direction: column;
+    background-color: skyblue;
+}
+
+.bottomtwo{
+
+    background-color: rgb(219, 134, 22);
+}
+
+
+}
+
+
+@media(max-width: 700px){
+
+
+.top{
+
+        flex-direction: column-reverse;
+        background-color: rgb(241, 152, 241);
+ }
+    
+ .navone{
+
+        background-color: pink;
+ }
+
+
+.navtwo{
+
+        background-color: pink;
+}
+
+
+.mymission{
+
+    background-color: peru;
+    color: antiquewhite;
+}
+
+
+
+.second{
+
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(241, 152, 241) ;
+}
+
+
+.mission{
+
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    
+ }
+
+
+.vission{
+
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    
+ }
+.goal{
+
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(204, 248, 248);
+    
+ }
+     
+
+
+
+
+
+
+
+.third{
+
+        flex-direction: column;
+        background-color: rgb(241, 152, 241);
+
+}
+
+
+.dev{ 
+
+    background-color: rgb(165, 10, 165);
+    color: rgb(243, 235, 225);
+
+}
+
+.fourth{
+
+    flex-direction: column-reverse;
+    background-color: rgb(241, 152, 241);
+
+}
+
+
+.know{
+
+    background-color:skyblue ;
+    color: rgb(241, 235, 227);
+}
+
+.fifth{
+
+    background-color:rgb(241, 35, 241) ;
+    
+}
+
+
+.bottomtwo{
+
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+.footer{
+
+    flex-direction: column;
+    background-color: rgb(241, 152, 241);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
