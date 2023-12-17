@@ -317,6 +317,12 @@
 
 @media(max-width: 1200px){
 
+
+    body{
+
+        background-color: skyblue;
+    }
+
  .top{
 
     flex-direction: column;
@@ -436,6 +442,11 @@
 
 @media(max-width: 700px){
 
+
+    body{
+
+        background-color: pink;
+    }
 
 .top{
 
