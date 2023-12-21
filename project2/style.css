@@ -8,6 +8,11 @@
 }
 
 
+body{
+
+    background-image: url(first-photo.avif);
+}
+
 .top{
 
     border: 1px solid black;
