@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
-      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
 </head>
-<body>
+
+<body class="sm:bg-sky-300 lg:bg-green-200 xl:bg-purple-300">
     
-    <nav class="container">
-        <div class="child0ne">
-          <h3>Infuencer Product</h3>
+
+    <nav class="container sm:bg-red-500  lg:bg-yellow-200 flex justify-between border m-4 p-4 " id="navid">
+        <div class="child0ne ">
+          <h3 class=" font-bold text-4xl">Infuencer Product</h3>
         </div>
   
-        <div class="childtwo">
+        <div class="childtwo flex gap-10 font-semibold text-xl sm:flex-wrap">
           <a href="">Home</a>
           <a href="">About</a>
           <a href="">Sign up</a>
@@ -31,27 +35,27 @@
         </div>
       </nav>
   
-      <div class="second">
+      <div class="second flex justify-between border m-4 p-4 items-center">
         <div class="boxone">
-          <h2>Start Your Journey as Influencer</h2>
+          <h2 class="font-bold text-3xl pb-3 lg:text-yellow-500 xl:text-purple-700">Start Your Journey as Influencer</h2>
   
-          <p>
+          <p class="lg:font-semibold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
             Expedita, optio?
           </p>
-          <button>Preebook now &#129030;</button>
+          <button class="bg-red-500 lg:bg-yellow-200 sm:bg-white border m-5 p-5 rounded-full xl:bg-purple-600">Preebook now &#129030;</button>
         </div>
   
         <div class="boxtwo">
           <img
             src="/project-one/influencer-gear/images/main-camera.png"
             alt=""
-            class="maincamera"
+            class="maincamera border rounded-full m-5 p-5"
           />
         </div>
       </div>
   
-      <div class="third">
+      <div class="third border m-5 p-5 flex justify-between">
         <img
           src="/project-one/influencer-gear/logos/Alibaba.svg"
           alt=""
@@ -92,12 +96,19 @@
   
   
   
-      <div class="fourth">
-        <div class="one"><h3>Popular Collection</h3></div>
+      <div class="fourth  ">
+
+        <div class="one m-5 p-5 flex justify-center border ">
+
+            <h3 class=" font-bold text-2xl sm:text-white lg:text-yellow-400 xl:text-purple-700">
+                Popular Collection
+
+            </h3>
+        </div>
   
-        <div class="geardiv">
+        <div class="geardiv ">
   
-          <div class="gearimg">
+          <div class="gearimg grid grid-cols-3 place-items-center border m-4 p-4">
             
             <div class="contentdiv">
             <img
@@ -106,7 +117,7 @@
               class="image"
             />
   
-            <h4>Flex Tripod</h4>
+            <h4 class="font-bold text-lg">Flex Tripod</h4>
             <p>$50.48</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -129,7 +140,7 @@
               class="image"
             />
   
-            <h4>Microphone</h4>
+            <h4 class="font-bold text-lg">Microphone</h4>
             <p>$119.99</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -156,7 +167,7 @@
             />
   
   
-            <h4>Airpod</h4>
+            <h4 class="font-bold text-lg">Airpod</h4>
             <p>$99.99</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -182,7 +193,7 @@
               class="image"
             />
   
-            <h4>Drone</h4>
+            <h4 class="font-bold text-lg">Drone</h4>
             <p>$980.25</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -207,7 +218,7 @@
               class="image"
             />
   
-            <h4>Light Setup</h4>
+            <h4 class="font-bold text-lg">Light Setup</h4>
             <p>$120.00</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -233,7 +244,7 @@
               class="image"
             />
   
-            <h4>Photoshoot Set</h4>
+            <h4 class="font-bold text-lg">Photoshoot Set</h4>
             <p>$820.00</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -259,7 +270,7 @@
               class="image"
             />
   
-            <h4>Vlogging camera</h4>
+            <h4 class="font-bold text-lg">Vlogging camera</h4>
             <p>$1880.80</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -286,7 +297,7 @@
             />
   
   
-            <h4>Green Screen</h4>
+            <h4 class="font-bold text-lg">Green Screen</h4>
             <p>$25.48</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -312,7 +323,7 @@
               class="image"
             />
   
-            <h4>Action Camera</h4>
+            <h4 class="font-bold text-lg">Action Camera</h4>
             <p>$380.00</p>
             <div class="icons">
               <i class="fa fa-star" aria-hidden="true"></i>
@@ -335,16 +346,21 @@
   
           <div class="bottom">
   
-           <div class="bottomfour"><h5>See More &#8594;</h5></div>
+           <div class="bottomfour flex justify-end border m-6 p-6">
+
+              <a href="#navid" class="font-bold text-red-400 lg:text-yellow-300 xl:text-purple-700 sm:text-white">See More &#8594</a>
+
+           </div>
   
           </div>
   
         </div>
+
       </div>
   
   
   
-      <footer class="footer">
+      <footer class="footer flex justify-around items-center border m-4 p-4" id="foot">
         <div class="footerone">
           <img
             src="/project-one/influencer-gear/images/gear.png"
@@ -354,13 +370,16 @@
         </div>
   
         <div class="footertwo">
-          <h3>Featured products at one place</h3>
+          <h3 class="font-bold text-2xl pb-3">Featured products at one place</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sed,
             sapiente. Lorem ipsum dolor sit amet.
           </p>
-          <button class="footerbtn">JoinNow&#129030;</button>
+          <button class="footerbtn pt-3 bg-red-500 rounded-full p-4 m-4 text-black-400 font-bold lg:text-yellow-300 xl:text-purple-700 sm:bg-white">JoinNow&#129030;</button>
         </div>
       </footer>
+
+
+
 </body>
 </html>
