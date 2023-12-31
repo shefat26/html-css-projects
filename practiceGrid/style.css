@@ -1,0 +1,193 @@
+
+
+.box1{
+
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    gap: 10px;
+}
+
+.box1 div{
+
+    
+    padding: 16px;
+    background-color: red;
+    border-radius: 10px;
+    
+
+}
+
+
+ .position{
+
+    
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+   position: relative;
+   height: 20vh;
+
+ }
+
+
+ .position button{
+
+    margin: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    /* position: absolute;
+    left: 100px;
+    top: 0px; */
+ }
+
+ .btn1{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+ }
+ .btn2{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+ }
+ .btn3{
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+
+ }
+
+ .btn4{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+ }
+
+ .btn5{
+
+    position: absolute;
+    left: 640px;
+    top: 60px;
+
+
+ }
+
+ .btn6{
+
+    position: fixed;
+    left: 250px;
+    top: 290px;
+
+
+ }
+
+
+ .btn7{
+
+    position: fixed;
+    right: 250px;
+    top: 290px;
+
+
+ }
+ .btn8{
+
+    position: fixed;
+    right: 650px;
+    top: 353px;
+
+
+ }
+ 
+@media(max-width:1200px){
+
+
+    .box1{
+        
+        margin: 10px;
+        padding: 16px;
+        background-color: green;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .box1 div{
+
+    
+        padding: 16px;
+        background-color: blue;
+        border-radius: 10px;
+        
+    
+    }
+
+
+
+
+
+
+}
+
+
+@media(max-width:700px){
+
+
+    .box1{
+        
+        margin: 10px;
+        padding: 16px;
+        background-color: purple;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+
+        gap: 10px;
+    }
+
+
+    .box1 div{
+
+    
+        padding: 16px;
+        background-color: yellow;
+        border-radius: 10px;
+        
+    
+    }
+
+
+
+    .btn5{
+
+      /* position: absolute; */
+      left: 250px;
+      /* top: 60px; */
+  
+  
+   }
+
+
+
+}
